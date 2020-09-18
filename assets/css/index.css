@@ -1,0 +1,89 @@
+/* cssindex */
+        .itemWrap {
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+          grid-gap: 20px;
+        }
+        @media(max-width:1023px) {
+          .itemWrap {
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 12px 8px;
+          }
+        }
+        .productBody .productPostBody .productTitle {
+          font-weight:900;
+          display:block;
+          margin:10px 0 5px;
+          font-size:100%;
+    text-align: center;
+        }
+        .productBody .productPostBody .productTitle a {
+          color:#2D4351;
+        }
+        .productOption {
+          display:none;
+        }
+        .productPrice {
+          font-size:110%;
+          color:#f94c2f;
+        }
+        .productPrice * {
+          display:inline;
+          vertical-align:middle;
+        }
+        .productPrice small {
+          text-decoration:line-through!important;
+          color:#999;
+          font-size:75%;
+          display:block;
+        }
+        .productPrice small i {
+          display:inline-block;
+          vertical-align:middle;
+          margin:0 5px;
+        }
+        @media(max-width:1023px){
+          .productPrice small {
+            margin-right:0;
+            display:block;
+          }
+        }
+        .productPrice span {
+          position:absolute;
+          top:10px;
+          right:10px;
+          background:#f94c2f;
+          color:#fff;
+          width:40px;
+          height:40px;
+          line-height:40px;
+          border-radius:40px;
+          text-align:center;
+          font-weight:600;
+          font-size:90%;
+        }
+        .productPhotoWrapper a {
+          display:block;
+          width:100%;
+          padding-top:125%;
+          background-size:cover;
+          background-position:center center;
+          border-radius:2px;
+          background-color:#fafafa;
+          background-repeat: no-repeat;
+        }
+        .productPhotoWrapper a:nth-child(2) {
+          display:block;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          opacity: 0;
+          visibility: hidden;
+          transition: opacity .2s;
+        }
+        .itemPost:hover .productPhotoWrapper a:nth-child(2) {
+          opacity: 1;
+          visibility: visible;
+        }
+        /* cssindex */
