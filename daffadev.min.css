@@ -11,6 +11,7 @@
   opacity: 0.8; }
 
 .adr-wrap {
+  display:none;
   top: 0;
   left: 0;
   width: 100%;
