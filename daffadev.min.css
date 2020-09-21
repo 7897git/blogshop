@@ -41,13 +41,7 @@
   display: none; }
 
 .adr-content {
-  
-  position: relative;
-  display: none;
-  vertical-align: middle;
-  margin: 0 auto;
-  text-align: left;
-  z-index: 1045; }
+  display:none; }
 
 .adr-inline-holder .adr-content,
 .adr-ajax-holder .adr-content {
