@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Kunci Konten agar tidak bisa di edit di inspect element - Jurnalweb.com</title>
+	<script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script src="//cnova.github.io/jquery-lock/release/jquery.lock.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$(".kunci").lock();
+		});
+	</script>
+</head>
+<body>
+
+
+<h1 class="kunci">Saya Tidak Bisa Diubah, Coba Deh</h1>
+<p class="kunci">Saya Juga Dikunci, tidak bisa di edit</p>
+<p>Konten yang ini tidak di dikunci, ini masih bisa diedit</p>
+<p>TerimaKasih :)</p>
+</body>
+</html>
